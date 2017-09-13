@@ -77,4 +77,9 @@ All done? Then you are ready to go. Wave bye-bye to the Web-based console...
       --strict-host-key-checking=no --ssh-key-file="$the_ssh_key_file" $the_vm_name \
       -- ip a
     ```
-After running the above command
+1. **Destroy the Instance.**
+
+    ```
+    gcloud compute instances delete $the_vm_name
+    ```
+
